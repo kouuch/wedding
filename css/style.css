@@ -91,3 +91,14 @@ header.active{
 .nav li a.active{
     color: var(--primary);
 }
+
+.search{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
