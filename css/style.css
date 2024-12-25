@@ -116,3 +116,10 @@ header.active{
     outline: none;
     padding: 0 10px 0 15px;
 }
+
+.search input::placeholder{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 350;
+}
+
