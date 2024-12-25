@@ -123,3 +123,18 @@ header.active{
     font-weight: 350;
 }
 
+.search ion-icon{
+    font-size: 1.3em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    right: 10px;
+    padding-left: 10px;
+    color: #000000;
+    cursor: pointer;
+    border-left: 1px solid #000000;
+}
