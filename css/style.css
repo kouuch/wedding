@@ -83,6 +83,11 @@ header.active{
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
-    font-weight: 300;
+    font-weight: 350;
     padding: 10px;
+}
+
+.nav li a:hover,
+.nav li a.active{
+    color: var(--primary);
 }
