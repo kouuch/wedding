@@ -49,7 +49,7 @@ header.active{
     font-size: 30px;
     color: black;
     letter-spacing: 2.5px;
-    font-weight: 350;
+    font-weight: 300;
     text-decoration: none;
 }
 
@@ -69,5 +69,20 @@ header.active{
 
 .nav li{
     list-style: none;
-    margin: 0 100px;
+    margin: 0 20px;
+}
+
+.nav li a{
+    color: black;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-weight: 300;
+    padding: 10px;
 }
