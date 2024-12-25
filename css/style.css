@@ -1,1 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #ff0066;
+}
+
+body{
+    position: relative;
+    background: #ffffff;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    min-width: 100vh;
+    overflow: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    z-index: 1300;
+}
+
+header.active{
+    background: #ffffff;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.15);
+}
