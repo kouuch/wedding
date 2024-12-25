@@ -52,3 +52,13 @@ header.active{
     font-weight: 350;
     text-decoration: none;
 }
+
+.menu{
+    color: black;
+    font-size: 2em;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
