@@ -219,3 +219,20 @@ header.active{
     opacity: 1;
     visibility: visible;
 }
+
+.circle{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+
+    justify-content: center;
+    align-items: center;
+    transform: translate(0,0) rotateZ(0);
+    -webkit-transform: translate(0,0) rotateZ(0);
+    -moz-transform: translate(0,0) rotateZ(0);
+    -ms-transform: translate(0,0) rotateZ(0);
+    -o-transform: translate(0,0) rotateZ(0);
+}
