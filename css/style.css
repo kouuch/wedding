@@ -194,3 +194,17 @@ header.active{
     -ms-transition: ease-in-out 3s;
     -o-transition: ease-in-out 3s;
 }
+
+.bg-slide .content h1{
+    font-family: "Julee", serif;
+    font-size: 8em;
+    text-transform: uppercase;
+}
+
+.bg-slide .content p{
+    font-family: "Roboto", serif;
+    font-weight: 200;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    
+}
