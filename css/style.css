@@ -248,7 +248,11 @@ header.active{
     background: transparent;
     width: 140vw;
     height: 140vw;
-    border: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
 }
 
 .circle.large{
@@ -319,11 +323,11 @@ header.active{
 }
 
 .bg-slide.active .circle.small{
-    transform: translate(0, 0) rotateZ(720deg);
+    transform: translate(0, 0) rotateZ(-720deg);
     -webkit-transform: translate(0, 0) rotateZ(-720deg);
-    -moz-transform: translate(0, 0) rotateZ(720deg);
-    -ms-transform: translate(0, 0) rotateZ(720deg);
-    -o-transform: translate(0, 0) rotateZ(720deg);
+    -moz-transform: translate(0, 0) rotateZ(-720deg);
+    -ms-transform: translate(0, 0) rotateZ(-720deg);
+    -o-transform: translate(0, 0) rotateZ(-720deg);
     opacity: 1;
     visibility: visible;
 }
