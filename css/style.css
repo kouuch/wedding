@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+/* general */
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +20,7 @@ body{
     overflow: hidden;
 }
 
+/* header */
 header{
     position: absolute;
     top: 0;
