@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 /* general */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --primary: #ff0066;
 }
 
-body{
+body {
     position: relative;
     background: #ffffff;
     font-family: "Roboto", sans-serif;
@@ -21,7 +21,7 @@ body{
 }
 
 /* header */
-header{
+header {
     position: absolute;
     top: 0;
     left: 0;
@@ -41,12 +41,12 @@ header{
     z-index: 1300;
 }
 
-header.active{
+header.active {
     background: #ffffff;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
 }
 
-.logo{
+.logo {
     font-family: "Great Vibes", serif;
     font-size: 30px;
     color: black;
@@ -55,7 +55,7 @@ header.active{
     text-decoration: none;
 }
 
-.menu{
+.menu {
     color: black;
     font-size: 2em;
     transition: 0.5s;
@@ -65,16 +65,16 @@ header.active{
     -o-transition: 0.5s;
 }
 
-.nav{
+.nav {
     display: flex;
 }
 
-.nav li{
+.nav li {
     list-style: none;
     margin: 0 20px;
 }
 
-.nav li a{
+.nav li a {
     color: black;
     text-decoration: none;
     text-transform: lowercase;
@@ -90,11 +90,11 @@ header.active{
 }
 
 .nav li a:hover,
-.nav li a.active{
+.nav li a.active {
     color: var(--primary);
 }
 
-.search{
+.search {
     position: relative;
     width: 300px;
     height: 40px;
@@ -105,27 +105,27 @@ header.active{
     -o-transition: 0.5s;
 }
 
-.search input{
+.search input {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     color: #000000;
-    background: transparent ;
+    background: transparent;
     border: none;
     border-bottom: 1px solid #000000;
     outline: none;
     padding: 0 10px 0 15px;
 }
 
-.search input::placeholder{
+.search input::placeholder {
     color: #000000;
     text-transform: uppercase;
     font-weight: 350;
 }
 
-.search ion-icon{
+.search ion-icon {
     font-size: 1.3em;
     position: absolute;
     top: 50%;
@@ -141,7 +141,7 @@ header.active{
     border-left: 1px solid #000000;
 }
 
-.banner{
+.banner {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -157,7 +157,7 @@ header.active{
     -o-transition: 0.05s;
 }
 
-.banner::after{
+.banner::after {
     position: absolute;
     content: '';
     top: 0;
@@ -168,7 +168,7 @@ header.active{
 }
 
 
-.bg-slide{
+.bg-slide {
     position: absolute;
     top: 0;
     left: 0;
@@ -181,7 +181,7 @@ header.active{
 }
 
 
-.bg-slide .content{
+.bg-slide .content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -201,20 +201,20 @@ header.active{
     visibility: hidden;
 }
 
-.bg-slide .content h1{
+.bg-slide .content h1 {
     font-family: "Julee", serif;
     font-size: 8em;
     text-transform: uppercase;
 }
 
-.bg-slide .content p{
+.bg-slide .content p {
     font-family: "Great Vibes", serif;
     font-weight: 200;
     font-size: 1.2em;
     letter-spacing: 1px;
 }
 
-.bg-slide.active .content{
+.bg-slide.active .content {
     transform: scale(1) translate(-50%, -50%);
     -webkit-transform: scale(1) translate(-50%, -50%);
     -moz-transform: scale(1) translate(-50%, -50%);
@@ -224,7 +224,7 @@ header.active{
     visibility: visible;
 }
 
-.circle{
+.circle {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -234,11 +234,11 @@ header.active{
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(0,0) rotateZ(0);
-    -webkit-transform: translate(0,0) rotateZ(0);
-    -moz-transform: translate(0,0) rotateZ(0);
-    -ms-transform: translate(0,0) rotateZ(0);
-    -o-transform: translate(0,0) rotateZ(0);
+    transform: translate(0, 0) rotateZ(0);
+    -webkit-transform: translate(0, 0) rotateZ(0);
+    -moz-transform: translate(0, 0) rotateZ(0);
+    -ms-transform: translate(0, 0) rotateZ(0);
+    -o-transform: translate(0, 0) rotateZ(0);
     opacity: 0;
     visibility: hidden;
     transition: 3s;
@@ -248,7 +248,7 @@ header.active{
     -o-transition: 3s;
 }
 
-.circle.bg{
+.circle.bg {
     background: transparent;
     width: 140vw;
     height: 140vw;
@@ -259,17 +259,17 @@ header.active{
     -o-border-radius: 0;
 }
 
-.circle.large{
+.circle.large {
     width: 70vw;
     height: 70vw;
 }
 
-.circle.small{
+.circle.small {
     width: 35vw;
     height: 35vw;
 }
 
-.circle img{
+.circle img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -282,7 +282,7 @@ header.active{
     object-position: center;
 }
 
-.circle.bg img{
+.circle.bg img {
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -290,7 +290,7 @@ header.active{
     -o-border-radius: 0;
 }
 
-.circle.large img{
+.circle.large img {
     transform: scale(2);
     -webkit-transform: scale(2);
     -moz-transform: scale(2);
@@ -298,7 +298,7 @@ header.active{
     -o-transform: scale(2);
 }
 
-.circle.small img{
+.circle.small img {
     transform: scale(4);
     -webkit-transform: scale(4);
     -moz-transform: scale(4);
@@ -306,7 +306,7 @@ header.active{
     -o-transform: scale(4);
 }
 
-.bg-slide.active .circle.bg{
+.bg-slide.active .circle.bg {
     transform: translate(0, 0) rotateZ(-360deg);
     -webkit-transform: translate(0, 0) rotateZ(-360deg);
     -moz-transform: translate(0, 0) rotateZ(-360deg);
@@ -316,7 +316,7 @@ header.active{
     visibility: visible;
 }
 
-.bg-slide.active .circle.large{
+.bg-slide.active .circle.large {
     transform: translate(0, 0) rotateZ(720deg);
     -webkit-transform: translate(0, 0) rotateZ(720deg);
     -moz-transform: translate(0, 0) rotateZ(720deg);
@@ -326,7 +326,7 @@ header.active{
     visibility: visible;
 }
 
-.bg-slide.active .circle.small{
+.bg-slide.active .circle.small {
     transform: translate(0, 0) rotateZ(-720deg);
     -webkit-transform: translate(0, 0) rotateZ(-720deg);
     -moz-transform: translate(0, 0) rotateZ(-720deg);
