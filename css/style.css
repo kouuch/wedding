@@ -366,3 +366,13 @@ header.active {
 .slide-loader li a:hover {
   font-size: 4em;
 }
+
+.slide-loader::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: -70%;
+  width: 100px;
+  height: 2px;
+  background: #111111;
+}
