@@ -180,10 +180,11 @@ header.active {
 }
 
 .bg-slide .content {
+  background-color: tomato;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 60vw;
+  width: 75vw;
   z-index: 1100;
   transform: scale(0) translate(-50%, -50%);
   -webkit-transform: scale(0) translate(-50%, -50%);
@@ -424,7 +425,7 @@ header.active {
 .lead {
   /* background-color: tomato; */
   position: absolute;
-  bottom: 0;
+  bottom: -100px;
   width: 300px;
   height: 300px;
   display: flex;
