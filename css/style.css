@@ -439,3 +439,7 @@ header.active {
   z-index: 1100;
   color: #111111;
 }
+
+.move-dwon ion-icon{
+  font-size: 3.5em;
+}
