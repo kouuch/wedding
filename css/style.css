@@ -464,4 +464,14 @@ header.active {
   max-width: 20vmin;
   transform-origin: center;
   width: 66%;
+  animation: spin 2s linear infinite;
+  -webkit-animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from{
+    transform: rotateZ(0deg);
+}to{
+  transform: rotateZ(360deg);
+}
 }
