@@ -425,6 +425,7 @@ header.active {
   /* background-color: tomato; */
   position: absolute;
   bottom: 0;
+  width: 300px;
   height: 300px;
   display: flex;
   justify-content: center;
