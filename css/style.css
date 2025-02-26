@@ -416,3 +416,7 @@ header.active {
   text-decoration: none;
   color: #111111;
 }
+
+.share ion-icon{
+  font-size: 1.7em;
+}
