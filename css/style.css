@@ -376,3 +376,15 @@ header.active {
   height: 2px;
   background: #111111;
 }
+
+.share{
+  /* background-color: tomato; */
+  position:  absolute;
+  bottom: 50px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1200;
+}
