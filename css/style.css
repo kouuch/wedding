@@ -403,3 +403,11 @@ header.active {
   width: 2px;
   background: #111111;
 }
+
+.share p{
+  writing-mode: vertical-lr;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #111111;
+}
