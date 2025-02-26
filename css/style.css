@@ -369,7 +369,7 @@ header.active {
 
 .slide-loader::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 50%;
   left: -70%;
   width: 100px;
@@ -377,9 +377,9 @@ header.active {
   background: #111111;
 }
 
-.share{
+.share {
   /* background-color: tomato; */
-  position:  absolute;
+  position: absolute;
   bottom: 50px;
   left: 50px;
   display: flex;
@@ -389,9 +389,9 @@ header.active {
   z-index: 1200;
 }
 
-.share::before{
+.share::before {
   position: absolute;
-  content: '';
+  content: "";
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
@@ -404,7 +404,7 @@ header.active {
   background: #111111;
 }
 
-.share p{
+.share p {
   writing-mode: vertical-lr;
   text-transform: uppercase;
   font-weight: 300;
@@ -412,17 +412,17 @@ header.active {
   color: #111111;
 }
 
-.share a{
+.share a {
   text-decoration: none;
   color: #111111;
 }
 
-.share ion-icon{
+.share ion-icon {
   font-size: 1.8em;
 }
 
-.lead{
-  background-color: tomato;
+.lead {
+  /* background-color: tomato; */
   position: absolute;
   bottom: 0;
   left: 300px;
