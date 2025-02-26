@@ -388,3 +388,18 @@ header.active {
   align-items: center;
   z-index: 1200;
 }
+
+.share::before{
+  position: absolute;
+  content: '';
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  top: -120%;
+  height: 100px;
+  width: 2px;
+  background: #111111;
+}
