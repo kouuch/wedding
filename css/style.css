@@ -411,3 +411,8 @@ header.active {
   letter-spacing: 1px;
   color: #111111;
 }
+
+.share a{
+  text-decoration: none;
+  color: #111111;
+}
