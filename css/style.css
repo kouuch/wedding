@@ -425,12 +425,12 @@ header.active {
 .lead {
   /* background-color: tomato; */
   position: absolute;
-  bottom: -100px;
+  bottom: 0;
   width: 300px;
   height: 300px;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   z-index: 1000;
 }
 
@@ -442,14 +442,15 @@ header.active {
   -webkit-animation: flink 1s linear infinite;
 }
 
-.move-dwon ion-icon{
+.move-dwon ion-icon {
   font-size: 3.5em;
 }
 
 @keyframes flink {
-  from{
+  from {
     opacity: 1;
-  }to{
+  }
+  to {
     opacity: 0;
   }
 }
