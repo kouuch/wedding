@@ -180,11 +180,11 @@ header.active {
 }
 
 .bg-slide .content {
-  /* background-color: tomato; */
-  position: absolute;
+  /*background-color: tomato;
+  */position: absolute;
   top: 50%;
   left: 50%;
-  width: 75vw;
+  width: 65vw;
   z-index: 1100;
   transform: scale(0) translate(-50%, -50%);
   -webkit-transform: scale(0) translate(-50%, -50%);
@@ -453,4 +453,15 @@ header.active {
   }to{
     opacity: 0;
   }
+}
+
+.lead svg {
+  font-family: "Great Vibes", serif;
+  position: absolute;
+  z-index: 1100;
+  fill: currentColor;
+  height: auto;
+  max-width: 20vmin;
+  transform-origin: center;
+  width: 66%;
 }
