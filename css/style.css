@@ -420,3 +420,15 @@ header.active {
 .share ion-icon{
   font-size: 1.8em;
 }
+
+.lead{
+  background-color: tomato;
+  position: absolute;
+  bottom: 0;
+  left: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  z-index: 1000;
+}
