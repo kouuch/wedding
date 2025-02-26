@@ -181,7 +181,8 @@ header.active {
 
 .bg-slide .content {
   /*background-color: tomato;
-  */position: absolute;
+  */
+  position: absolute;
   top: 50%;
   left: 50%;
   width: 65vw;
@@ -440,17 +441,17 @@ header.active {
   color: #111111;
   animation: flink 1s linear infinite;
   -webkit-animation: flink 1s linear infinite;
-  
 }
 
-.move-dwon ion-icon{
+.move-dwon ion-icon {
   font-size: 3.5em;
 }
 
 @keyframes flink {
-  from{
+  from {
     opacity: 1;
-  }to{
+  }
+  to {
     opacity: 0;
   }
 }
@@ -464,14 +465,15 @@ header.active {
   max-width: 20vmin;
   transform-origin: center;
   width: 66%;
-  animation: spin 2s linear infinite;
-  -webkit-animation: spin 2s linear infinite;
+  animation: spin 10s linear infinite;
+  -webkit-animation: spin 10s linear infinite;
 }
 
 @keyframes spin {
-  from{
+  from {
     transform: rotateZ(0deg);
-}to{
-  transform: rotateZ(360deg);
-}
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }
