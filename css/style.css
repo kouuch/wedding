@@ -493,3 +493,12 @@ section {
 section::-webkit-scrollbar {
   display: none;
 }
+
+section.section-show{
+  padding: 150px 100px 100px;
+  top: 0;
+  height: auto;
+  min-height: 100vh;
+  overflow-y: visible;
+  opacity: 1;
+}
