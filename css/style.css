@@ -478,7 +478,7 @@ header.active {
   }
 }
 
-.section {
+section {
   overflow: hidden;
   position: absolute;
   width: 100%;
@@ -488,4 +488,8 @@ header.active {
   transition: ease-in-out 1s;
   transform-origin: bottom;
   z-index: 1100;
+}
+
+section::-webkit-scrollbar {
+  display: none;
 }
