@@ -51,3 +51,9 @@ window.addEventListener('load', () => {
         })
     })
 })
+
+// reset header ti initial state
+const resetHeader =()=>{
+    let header = document.querySelector('header')
+    header.classList.remove('active')
+}
