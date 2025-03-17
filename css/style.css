@@ -488,6 +488,7 @@ section {
   transition: ease-in-out 1s;
   transform-origin: bottom;
   z-index: 1100;
+  opacity: 0;
 }
 
 section::-webkit-scrollbar {
