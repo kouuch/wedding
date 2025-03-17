@@ -38,7 +38,7 @@ const sectionNavigator = name => {
 
 // navigation  to sections
 window.addEventListener('load', () => {
-    const navLst = document.querySelectorAll('.nav-btn')
+    const navLst = document.querySelectorAll('.btn-nav')
     navLst.forEach(nav => {
         nav.addEventListener('click', function (e) {
             e.preventDefault()
