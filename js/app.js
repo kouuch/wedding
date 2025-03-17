@@ -35,3 +35,19 @@ const sectionNavigator = name => {
         }
     })
 }
+
+// navigation  to sections
+window.addEventListener('load', () => {
+    const navLst = document.querySelectorAll('.nav-btn')
+    navLst.forEach(nav => {
+        nav.addEventListener('click', function (e) {
+            e.preventDefault()
+            navLst.forEach(el => {
+                el.classList.remove('active')
+            })
+            this.classList.add('active')
+            sectionNavigator(this.getAttribute('data-target'))
+            screen, width < 768 && toggleMenu()
+        })
+    })
+})
