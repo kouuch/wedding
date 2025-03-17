@@ -26,7 +26,7 @@ window.addEventListener('load', () => {
 // active section
 const sectionNavigator = name => {
     let sections = document.querySelectorAll('section')
-    let header = decoment.querySelector('header')
+    let header = document.querySelector('header')
     sections.forEach(section => {
         section.classList.remove('section-show')
         if (section.classList.contains(name)) {
