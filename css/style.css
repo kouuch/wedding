@@ -445,7 +445,6 @@ header.active {
 
 .move-dwon ion-icon {
   font-size: 3.5em;
-
 }
 
 @keyframes flink {
@@ -496,7 +495,7 @@ section::-webkit-scrollbar {
   display: none;
 }
 
-section.section-show{
+section.section-show {
   padding: 150px 100px 100px;
   top: 0;
   height: auto;
@@ -505,11 +504,19 @@ section.section-show{
   opacity: 1;
 }
 
-section h1{
+section h1 {
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-size: 4em;
   letter-spacing: 1px;
   margin-bottom: 150px;
   text-align: center;
+}
+
+section h4 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 300;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
 }
