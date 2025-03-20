@@ -545,10 +545,17 @@ section p {
   background: #111111;
 }
 
-.about .img-box{
+.about .img-box {
   position: relative;
 }
 
-.about .img-box img{
+.about .img-box img {
   max-width: 450px;
+}
+
+.about .img-box .corner-img {
+  position: absolute;
+  width: 15vw;
+  right: 15px;
+  bottom: -50px;
 }
