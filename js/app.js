@@ -38,7 +38,7 @@ const sectionNavigator = name => {
 
 // navigation  to sections
 window.addEventListener('load', () => {
-    const navLst = document.querySelectorAll('.btn-nav')
+    const navList = document.querySelectorAll('.btn-nav')
     navLst.forEach(nav => {
         nav.addEventListener('click', function (e) {
             e.preventDefault()
@@ -53,7 +53,19 @@ window.addEventListener('load', () => {
 })
 
 // reset header ti initial state
-const resetHeader =()=>{
+const resetHeader = () => {
     let header = document.querySelector('header')
     header.classList.remove('active')
+}
+
+// navigasi awal
+const initNavigation = () => {
+    const navList = dociment, querySelectorALL('.btn-nav')
+    navList.forEach(el => {
+        el.classList.remove('active')
+        if (el.getAttribute('data-target') === 'about') {
+            el.classList.add('active')
+        }
+    })
+    sectionNavigator('about')
 }
