@@ -39,10 +39,10 @@ const sectionNavigator = name => {
 // navigation  to sections
 window.addEventListener('load', () => {
     const navList = document.querySelectorAll('.btn-nav')
-    navLst.forEach(nav => {
+    navList.forEach(nav => {
         nav.addEventListener('click', function (e) {
             e.preventDefault()
-            navLst.forEach(el => {
+            navList.forEach(el => {
                 el.classList.remove('active')
             })
             this.classList.add('active')
