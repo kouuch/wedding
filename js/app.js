@@ -52,13 +52,13 @@ window.addEventListener('load', () => {
     })
 })
 
-// reset header ti initial state
+// reset header to initial state
 const resetHeader = () => {
     let header = document.querySelector('header')
     header.classList.remove('active')
 }
 
-// navigasi awal
+// initial navigation
 const initNavigation = () => {
     const navList = dociment, querySelectorALL('.btn-nav')
     navList.forEach(el => {
