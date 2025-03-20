@@ -521,7 +521,7 @@ section h4 {
   margin-bottom: 20px;
 }
 
-section p{
+section p {
   font-weight: 300;
   color: #111111;
   letter-spacing: 1px;
@@ -529,7 +529,18 @@ section p{
 }
 
 /* about section */
-.about h4::first-letter{
+.about h4::first-letter {
   color: var(--primary);
   font-size: 2em;
+}
+
+.about::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  top: 250px;
+  height: 100px;
+  width: 2px;
+  background: #111111;
 }
