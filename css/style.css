@@ -520,3 +520,10 @@ section h4 {
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
+
+section p{
+  font-weight: 300;
+  color: #111111;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
