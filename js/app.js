@@ -60,7 +60,7 @@ const resetHeader = () => {
 
 // initial navigation
 const initNavigation = () => {
-    const navList = dociment.querySelectorALL('.btn-nav')
+    const navList = document.querySelectorAll('.btn-nav')
     navList.forEach(el => {
         el.classList.remove('active')
         if (el.getAttribute('data-target') === 'about') {
