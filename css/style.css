@@ -548,3 +548,7 @@ section p {
 .about .img-box{
   position: relative;
 }
+
+.about .img-box img{
+  max-width: 450px;
+}
