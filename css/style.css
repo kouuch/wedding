@@ -527,3 +527,9 @@ section p{
   letter-spacing: 1px;
   margin-bottom: 40px;
 }
+
+/* about section */
+.about h4::first-letter{
+  color: var(--primary);
+  font-size: 2em;
+}
