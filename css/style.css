@@ -445,6 +445,7 @@ header.active {
 
 .move-dwon ion-icon {
   font-size: 3.5em;
+
 }
 
 @keyframes flink {
@@ -482,7 +483,7 @@ section {
   overflow: hidden;
   position: absolute;
   width: 100%;
-  height: 100vh;
+  top: 100vh;
   bottom: 0;
   background: #ffffff;
   transition: ease-in-out 1s;
