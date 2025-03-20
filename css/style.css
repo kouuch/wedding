@@ -559,3 +559,14 @@ section p {
   right: 15px;
   bottom: -50px;
 }
+
+.section-bg-tree {
+  position: absolute;
+  width: 35vw;
+  top: 500px;
+  bottom: 50px;
+  right: 100px;
+  opacity: 0.2;
+  z-index: 100;
+  pointer-events: none;
+}
