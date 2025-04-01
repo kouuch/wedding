@@ -734,8 +734,12 @@ section p {
 .portfolio #portfolio-filters li.filter-active::before {
   opacity: 1;
   visibility: visible;
-} 
+}
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+}
+
+.portfolio .portfolio-item .portfolio-img{
+  overflow: hidden;
 }
