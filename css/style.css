@@ -793,3 +793,7 @@ section p {
 .portfolio .portfolio-item .portfolio-info .details-link {
   right: 10px;
 }
+
+.portfolio .portfolio-item:hover .portfolio-img img {
+  transform: scale(1.15);
+}
