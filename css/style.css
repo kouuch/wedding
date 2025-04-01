@@ -715,3 +715,17 @@ section p {
   text-align: center;
 }
 
+.portfolio #portfolio-filters li::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  height: 2px;
+  width: 50%;
+  background: var(--primary);
+  transition: 0.3s;
+  visibility: hidden;
+  opacity: 0;
+  transform-origin: center;
+}
