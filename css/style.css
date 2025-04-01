@@ -789,3 +789,7 @@ section p {
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #111111;
 }
+
+.portfolio .portfolio-item .portfolio-info .details-link {
+  right: 10px;
+}
