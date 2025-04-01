@@ -705,7 +705,7 @@ section p {
   cursor: pointer;
   display: inline-block;
   margin: 10px 5px;
-  font-weight: 0.8em;
+  font-size: 0.8em;
   font-weight: 500;
   line-height: 1;
   text-transform: uppercase;
@@ -714,3 +714,4 @@ section p {
   padding: 8px 20px;
   text-align: center;
 }
+
