@@ -745,5 +745,17 @@ section p {
 }
 
 .portfolio .portfolio-item .portfolio-img img {
-  transition: all 0s;
+  transition: all 0.6s;
+}
+
+.portfolio .portfolio-item .portfolio-info {
+  position: absolute;
+  /* opacity: 0; */
+  left: 12px;
+  right: 12px;
+  bottom: 0;
+  z-index: 3;
+  transition: all 0.3s;
+  background: var(--primary);
+  padding: 10px 15px;
 }
