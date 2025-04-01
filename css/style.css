@@ -694,5 +694,8 @@ section p {
 }
 
 .portfolio #portfolio-filters {
-
+  list-style: none;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
