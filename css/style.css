@@ -740,6 +740,10 @@ section p {
   margin-bottom: 30px;
 }
 
-.portfolio .portfolio-item .portfolio-img{
+.portfolio .portfolio-item .portfolio-img {
   overflow: hidden;
+}
+
+.portfolio .portfolio-item .portfolio-img img {
+  transition: all 0s;
 }
