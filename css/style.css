@@ -758,7 +758,7 @@ section p {
   z-index: 3;
   transition: all 0.3s;
   background: var(--primary);
-  padding: 10px 15px;
+  padding: 12px 15px;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
