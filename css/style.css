@@ -699,3 +699,18 @@ section p {
   display: flex;
   flex-wrap: wrap;
 }
+
+.portfolio #portfolio-filters li {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 5px;
+  font-weight: 0.8em;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #111111;
+  transition: 0.3s;
+  padding: 8px 20px;
+  text-align: center;
+}
