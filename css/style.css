@@ -760,3 +760,10 @@ section p {
   background: var(--primary);
   padding: 10px 15px;
 }
+
+.portfolio .portfolio-item .portfolio-info h4 {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 0;
+}
