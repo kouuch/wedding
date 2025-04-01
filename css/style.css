@@ -751,7 +751,7 @@ section p {
 
 .portfolio .portfolio-item .portfolio-info {
   position: absolute;
-  /* opacity: 0; */
+  opacity: 0;
   left: 12px;
   right: 12px;
   bottom: 0;
@@ -796,4 +796,8 @@ section p {
 
 .portfolio .portfolio-item:hover .portfolio-img img {
   transform: scale(1.15);
+}
+
+.portfolio .portfolio-item:hover .portfolio-info {
+  opacity: 1;
 }
