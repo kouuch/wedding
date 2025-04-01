@@ -767,3 +767,9 @@ section p {
   font-weight: 500;
   margin-bottom: 0;
 }
+
+.portfolio .portfolio-item .portfolio-info p {
+  color: #f3e8e8;
+  font-size: 15px;
+  margin-bottom: 0;
+}
