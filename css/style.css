@@ -773,3 +773,14 @@ section p {
   font-size: 15px;
   margin-bottom: 0;
 }
+
+.portfolio .portfolio-item .portfolio-info .preview-link,
+.portfolio .portfolio-item .portfolio-info .details-link {
+  position: absolute;
+  right: 40px;
+  font-size: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ffffff;
+  transition: all 0.3s;
+}
