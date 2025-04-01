@@ -735,3 +735,7 @@ section p {
   opacity: 1;
   visibility: visible;
 } 
+
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
