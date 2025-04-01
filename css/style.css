@@ -619,7 +619,7 @@ section p {
 
 .card {
   position: relative;
-  margin: 20px 0;
+  margin: 20px 150px;
   width: 350px;
   height: 500px;
   background: #ffffff;
@@ -632,7 +632,7 @@ section p {
 }
 
 .card:hover {
-  transform: perspective(2000px);
+  transform: perspective(2000px) rotate(-10deg);
   box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.25);
   z-index: 1000;
 }
