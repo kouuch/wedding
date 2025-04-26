@@ -857,3 +857,48 @@ section p {
 .contact .info .phone {
   margin-top: 40px;
 }
+
+.contact form {
+  width: 100%;
+  background: #ffffff;
+}
+
+.contact form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact form input,
+.contact form textarea {
+  border-radius: 0;
+  box-shadow: none !important;
+  outline: 15px;
+  font-size: 15px;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+
+.contact form input {
+  height: 45px;
+}
+
+.contact form textarea {
+  padding: 10px 12px;
+}
+
+.contact form button[type='submit'] {
+  background: var(--primary);
+  border: 1px;
+  padding: 10px 25px;
+  color: #ffffff;
+  transition: 0.5s;
+  margin-top: 20px;
+}
+
+.contact form button[type='submit']:hover {
+  background: #ffffff;
+  color: var(--primary);
+}
