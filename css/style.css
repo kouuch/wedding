@@ -32,7 +32,7 @@ header {
   padding: 20px 100px;
   background: transparent;
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(250, 43, 43, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   transition: 1s;
   -webkit-transition: 1s;
   -moz-transition: 1s;
@@ -974,7 +974,7 @@ section p {
 
 @media (max-width: 768px) {
   header {
-    padding: 10px;
+    padding: 15px;
   }
   .nav {
     display: none !important;
@@ -996,16 +996,16 @@ section p {
   }
   .circle.bg {
     background: transparent;
-    width: 140vw;
-    height: 140vw;
+    width: 200vw;
+    height: 200vw;
   }
   .circle.large {
-    width: 70vw;
-    height: 70vw;
+    width: 100vw;
+    height: 100vw;
   }
   .circle.small {
-    width: 35vw;
-    height: 35vw;
+    width: 50vw;
+    height: 50vw;
   }
   .bg-slide.active .circle.bg {
     transform: translate(0, 0) rotateZ(0);
@@ -1048,7 +1048,7 @@ section p {
   }
 
   .slide-loader {
-    bottom: 60px;
+    bottom: 50px;
   }
   .share {
     left: 5px;
