@@ -195,7 +195,7 @@ header.active {
 .nav-mobile li a {
   color: #111111;
   text-decoration: none;
-  text-transform: uppercase ;
+  text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
   transform: 0.5s;
@@ -1048,7 +1048,7 @@ section p {
   }
 
   .slide-loader {
-    bottom: 10px;
+    bottom: 60px;
   }
   .share {
     left: 5px;
@@ -1072,9 +1072,123 @@ section p {
   }
 
   .section-bg-img {
-    bottom:  -500px;
+    bottom: -500px;
     right: 0px;
   }
+}
 
+@media (max-width: 375px) {
+  header {
+    padding: 20px;
+  }
 
+  .nav {
+    display: none !important;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .banner {
+    padding: 100px 20px;
+  }
+
+  .bg-slide .content {
+    width: 90vw;
+  }
+
+  .bg-slide .content h1 {
+    font-size: 2.5em;
+  }
+
+  .bg-slide .content p {
+    font-size: 0.7em;
+  }
+
+  .circle.bg {
+    width: 160vw;
+    height: 160vw;
+  }
+
+  .circle.large {
+    width: 80vw;
+    height: 80vw;
+  }
+
+  .circle.small {
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .lead {
+    bottom: 40px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .move-dwon ion-icon {
+    font-size: 1.8em;
+  }
+
+  .slide-loader {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1200;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+
+  .slide-loader li {
+    display: inline-block;
+  }
+
+  .slide-btn {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.5em;
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .slide-btn.active {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .slide-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .share {
+    left: 0px;
+  }
+
+  section.section-show {
+    padding: 120px 20px 80px;
+  }
+
+  .about .img-box img {
+    max-width: 90vw;
+  }
+
+  .about .img-box .corner-img {
+    width: 30vw;
+    right: -5px;
+  }
+
+  .about h4 {
+    margin-top: 40px;
+  }
+
+  .section-bg-img {
+    bottom: -400px;
+    right: 0px;
+  }
 }
