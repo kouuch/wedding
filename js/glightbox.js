@@ -1,5 +1,5 @@
 // initiate portfolio Lightbox
 
-const portfolioLightbox = Glightbox({
-    selector: '.portfolio-lightbox'
+const portfolioLightbox = GLightbox({
+    selector: '.portfolio-lightbox',
 })
