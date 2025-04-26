@@ -47,7 +47,7 @@ window.addEventListener('load', () => {
             })
             this.classList.add('active')
             sectionNavigator(this.getAttribute('data-target'))
-            screen, width < 768 && toggleMenu()
+            window.innerWidth < 768 && toggleMenu()
         })
     })
 })
@@ -68,4 +68,12 @@ const initNavigation = () => {
         }
     })
     sectionNavigator('about')
+}
+
+// toggle menu
+const toggleMenu  = () => {
+    const menu = document.querySelector('.menu')
+    const navMobile = document.querySelector('.nav-mobile')
+    menu.classList.toggle('active')
+    navMobile.classList.toggle('active')
 }

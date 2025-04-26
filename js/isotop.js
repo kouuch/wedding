@@ -29,7 +29,7 @@ window,addEventListener('load', () =>{
     let portfolioContainer = select('.portfolio-container')
     if (portfolioContainer) {
         let portfolioIsotope = new Isotope(portfolioContainer, {
-            itemSelectoe: '.portfolio-item'
+            itemSelector: '.portfolio-item'
         })
         let portfolioFilters = select('#portfolio-filters li', true)
         on(
