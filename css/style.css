@@ -1048,7 +1048,7 @@ section p {
   }
 
   .slide-loader {
-    bottom: 20px;
+    bottom: 10px;
   }
   .share {
     left: 5px;
@@ -1075,4 +1075,6 @@ section p {
     bottom:  -500px;
     right: 0px;
   }
+
+
 }
